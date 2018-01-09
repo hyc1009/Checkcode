@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.he.alltest.MainActivity">
+
+
+    <com.example.he.alltest.CheckCodeView
+        android:id="@+id/checkCodeView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        app:box_bg_focus="@drawable/verification_edit_bg_focus"
+        app:box_bg_normal="@drawable/verification_edit_bg_normal"
+        app:box_height="50dp"
+        app:box_num="5"
+        app:box_width="50dp"
+        app:mEditTextLeftMargin="5dp"
+        app:mEditTextRightMargin="5dp">
+
+    </com.example.he.alltest.CheckCodeView>
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text=""
+        />
+    <RelativeLayout
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+        <TextView
+            android:id="@+id/start"
+            android:layout_alignParentRight="true"
+            android:background="#666"
+            android:layout_width="50dp"
+            android:text="启用"
+            android:gravity="center"
+            android:layout_height="80dp" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

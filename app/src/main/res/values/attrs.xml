@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CheckCodeView">
+
+        <attr name = "box_num" format = "integer"/>
+        <attr name = "box_width" format ="dimension"/>
+        <attr name="box_height" format="dimension"/>
+        <attr name="mEditTextTopMargin" format="dimension"/>
+        <attr name="mEditTextBottomMargin" format="dimension"/>
+        <attr name="mEditTextLeftMargin" format="dimension"/>
+        <attr name="mEditTextRightMargin" format="dimension"/>
+        <attr name="box_bg_focus" format="reference"/>
+        <attr name="box_bg_normal" format="reference"/>
+
+    </declare-styleable>
+
+</resources>
